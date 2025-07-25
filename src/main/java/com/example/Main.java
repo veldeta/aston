@@ -1,7 +1,36 @@
 package com.example;
 
+import com.example.model1.task1.animal.Bear;
+import com.example.model1.task1.animal.Cat;
+import com.example.model1.task1.animal.Fish;
+import com.example.model1.task1.animal.Whale;
+import com.example.model1.task1.interfaces.Aquatic;
+import com.example.model1.task1.interfaces.HasFur;
+import com.example.model1.task1.model.Animal;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Animal[] animals = {
+            new Cat(),
+            new Bear(),
+            new Whale(),
+            new Fish()
+        };
+
+        for (Animal animal : animals) {
+            animal.describe();
+            animal.hasSpine();
+
+            if (animal instanceof HasFur hasFur) {
+                hasFur.hasFur();
+            } else {
+            }
+
+            if (animal instanceof Aquatic aquatic) {
+                aquatic.liveInWater();
+            }
+
+            System.out.println();
+        }
     }
 }
