@@ -1,4 +1,4 @@
-package com.example;
+package com.example.model1.task1;
 
 import com.example.model1.task1.animal.Bear;
 import com.example.model1.task1.animal.Cat;
@@ -28,9 +28,8 @@ public class Main {
 
             if (animal instanceof HasFur hasFur) {
                 hasFur.hasFur();
-            } else {
             }
-
+            
             if (animal instanceof Aquatic aquatic) {
                 aquatic.liveInWater();
             }

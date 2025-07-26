@@ -8,7 +8,35 @@ import com.example.model1.task2.model.TransportVehicle;
 
 public class Airplane extends TransportVehicle implements Wheeled, Winged, PropellerDriven, CargoTransport
 {
-    public static void main(String[] args) {
-        System.out.println("Самолет " + Wheeled.wheel + ", " + Winged.wing + ", " + PropellerDriven.screw + ", " + CargoTransport.cargo);
+    @Override
+    public void conclusion() {
+        this.cargo();
+        this.screw();
+        this.wing();
+        this.wheel();
+    }
+
+    @Override
+    public void cargo()
+    {
+        System.out.println("Самолет перевозит груз по воздуху.");
+    }
+
+    @Override
+    public void screw()
+    {
+        System.out.println("У самолета есть винты.");
+    }
+
+    @Override
+    public void wing()
+    {
+        System.out.println("Самолет взлетает с помощью крыльев.");
+    }
+
+    @Override
+    public void wheel()
+    {
+        System.out.println("Шосси для взлета и посадки.");
     }
 }
