@@ -7,6 +7,7 @@ import com.example.model1.task1.animal.Whale;
 import com.example.model1.task1.interfaces.Aquatic;
 import com.example.model1.task1.interfaces.HasFur;
 import com.example.model1.task1.model.Animal;
+import com.example.model1.task1.model.Mammal;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,7 +20,11 @@ public class Main {
 
         for (Animal animal : animals) {
             animal.describe();
-            animal.hasSpine();
+
+            if (animal instanceof Mammal mammal ) {
+                mammal.hasSpine();
+            }
+            
 
             if (animal instanceof HasFur hasFur) {
                 hasFur.hasFur();
