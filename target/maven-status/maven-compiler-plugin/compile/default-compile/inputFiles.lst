@@ -8,3 +8,14 @@ D:\java\aston\src\main\java\com\example\model1\task1\interfaces\HasFur.java
 D:\java\aston\src\main\java\com\example\model1\task1\interfaces\Vertebrate.java
 D:\java\aston\src\main\java\com\example\model1\task1\model\Animal.java
 D:\java\aston\src\main\java\com\example\model1\task1\model\Mammal.java
+D:\java\aston\src\main\java\com\example\model1\task2\interfaces\CargoTransport.java
+D:\java\aston\src\main\java\com\example\model1\task2\interfaces\PropellerDriven.java
+D:\java\aston\src\main\java\com\example\model1\task2\interfaces\Wheeled.java
+D:\java\aston\src\main\java\com\example\model1\task2\interfaces\Winged.java
+D:\java\aston\src\main\java\com\example\model1\task2\model\TransportVehicle.java
+D:\java\aston\src\main\java\com\example\model1\task2\transport\Airplane.java
+D:\java\aston\src\main\java\com\example\model1\task2\transport\Helicopter.java
+D:\java\aston\src\main\java\com\example\model1\task2\transport\Speedboat.java
+D:\java\aston\src\main\java\com\example\model1\task2\transport\Tanker.java
+D:\java\aston\src\main\java\com\example\model1\task2\transport\Taxi.java
+D:\java\aston\src\main\java\com\example\model1\task2\transport\Truck.java
